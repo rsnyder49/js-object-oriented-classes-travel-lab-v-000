@@ -25,7 +25,7 @@ class Route {
  		  'Park',
  		  'Madison Avenue',
  		  '5th Avenue'
- 		];
+ 	 ];
  		
  	 const northSouth =  Math.abs(this.beginningLocation.vertical - this.endingLocation.vertical);
  	 const eastWest = Math.abs(avenues.indexOf(this.beginningLocation.horizontal) - avenues.indexOf(this.endingLocation.horizontal));
